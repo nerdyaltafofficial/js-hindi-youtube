@@ -18,4 +18,6 @@ console.log(typeof Object); //  function type
 console.log(typeof object); // undefined
 console.log(typeof null); //  object type
 console.log(typeof undefined); // undefined
+console.log(typeof 2); //       number
+console.log(typeof NaN); // number
 
