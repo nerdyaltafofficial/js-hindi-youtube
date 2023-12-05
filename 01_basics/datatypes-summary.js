@@ -34,3 +34,32 @@ const myFunction = function(){
 }
 
 console.log(typeof fruits); //funtion type
+
+
+
+
+// ************************************************************************
+
+//Stack (Primitive), Heap (Non-Primitive)
+
+let myyoutubename =  "altafAlidotchannel";
+
+let anothername =  myyoutubename;
+anothername= "newentry";
+
+console.log(myyoutubename); //altafalidotchannel
+console.log(anothername);  //newentry
+
+
+
+let userOne = 
+{
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne;
+userTwo.email = "newemail@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
