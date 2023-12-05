@@ -61,5 +61,5 @@ let userOne =
 let userTwo = userOne;
 userTwo.email = "newemail@gmail.com"
 
-console.log(userOne.email);
-console.log(userTwo.email);
+console.log(userOne.email); //newemail@gmail.com
+console.log(userTwo.email); //newemail@gmail.com
