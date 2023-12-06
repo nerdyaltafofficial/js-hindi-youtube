@@ -42,6 +42,13 @@ console.log(typeof fruits); //funtion type
 
 //Stack (Primitive), Heap (Non-Primitive)
 
+//In primitive data types original value remain same after changing its value 
+// because after changing a value its give the copy of the value not the original one,
+
+
+//In Non-primitive data types original value and after changing its give same value 
+// because its directly call by it reference
+
 let myyoutubename =  "altafAlidotchannel";
 
 let anothername =  myyoutubename;
