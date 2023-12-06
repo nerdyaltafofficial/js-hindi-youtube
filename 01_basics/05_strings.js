@@ -53,4 +53,4 @@ let nameString = "alialialialialiali";
 
 let split = nameString.split("i");
 
-console.log(split); // Read mdn docs for more information
+console.log(split); // Read mdn docs for more inform ation
